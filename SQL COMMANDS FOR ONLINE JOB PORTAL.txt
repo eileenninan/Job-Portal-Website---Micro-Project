@@ -1,0 +1,51 @@
+================================================SQL Commands================================================================================================
+================================================Create a Database for Employer===================================================================================
+
+create database employer;
+use employer;
+
+================================================Create a table to store username and password======================================================================
+
+create table user(Username varchar(20), Password varchar(20));
+
+=================================================Create a table for job list========================================================================================
+
+create table job(id int(20) Not Null, Jobpost varchar(50) Not Null, Location varchar(50) Not Null, Language varchar(50) Not Null, Salary int(20) Not Null, Status varchar(50) Not Null);
+
+Alter table job
+Add primary key(id);
+
+Alter table job
+Modify id int(20) Not Null auto_increment, auto_increment=1;
+
+================================================Create table for applicants=======================================================================================
+
+create table applicant(id int(20) Not Null, Name varchar(100), email varchar(50), jobpost varchar(50), status varchar(50));
+
+Alter table applicant
+Add primary key(id);
+
+Alter table applicant
+Modify id int(20) Not Null auto_increment, auto_increment=1;
+
+=============================================================================================================================================
+=============================================================================================================================================
+======================================================Create a Database for Jobseeker============================================================
+
+create database jobseeker;
+use jobseeker;
+
+======================================================Create a table to store username and password===============================================
+
+create table user(Username varchar(20), Password varchar(20));
+
+======================================================Create a table for job list==================================================================
+
+create table pdn(id int(20) Not Null, Name varchar(100), email varchar(50), dob date, gender varchar(50), address varchar(100), zip int, Graduation varchar(50), College varchar(100), PassOut int, CGPA int, Experience varchar(50), Skills varchar(100));
+
+
+Alter table pdn
+Add primary key(id);
+
+Alter table pdn
+Modify id int(20) Not Null auto_increment, auto_increment=1;
