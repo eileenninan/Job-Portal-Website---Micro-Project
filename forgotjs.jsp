@@ -41,7 +41,9 @@
 						name=rs.getString(1);
 						pass=rs.getString(2);
 		%>
-						<center><br><br><h2>Your Password is <%=pass %></h2></center>
+						
+						<center><br><br><h2>Your Password is <%=pass %></h2><br><br>
+						<a href="JobPortal.html">Go to Home Page</a></center>
 
 		<%
 					}

@@ -359,39 +359,40 @@ button span:nth-child(4){
 		<div id="id01" class="modal">
 		<form class="modal-content animate" action="JSPD.jsp" method="post">
 			<div class = "login-box">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+				
 				<div class="imgcontainer">
 					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 				</div>
-				<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
 				<h2>Details</h2>
 				<div class="container">
 					<div class="user-box">
@@ -408,10 +409,10 @@ button span:nth-child(4){
 				<div class="user-box">
 					<table>
 						<tr>
-							<td><label>Gender</label></td>
+							<label>Gender</label>
 							<br>
 							<br>
-							<td>Male<input type="radio" value="Male" name="Gender"/> Female<input type="radio" value="Female" name="Gender"/></td>
+							<td style="border:#333;">Male<input type="radio" value="Male" name="Gender"/></td><td style="border:#333;"> Female<input type="radio" value="Female" name="Gender"/></td>
 						</tr>
 					</table>
 				</div>

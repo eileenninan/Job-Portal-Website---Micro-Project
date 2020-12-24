@@ -52,21 +52,19 @@
 						skill=rs.getString(13);
 		%>
 						<div class="login-box">
-						
-			
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
 							<form method="post" action="JSUpdate.jsp">
 								<div class="user-box">
 									<input type="text" name="Name" value="<%=name %>">
